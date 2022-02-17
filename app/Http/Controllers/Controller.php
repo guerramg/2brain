@@ -12,6 +12,6 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function token(){
-        return 'kevin';
+        return '##############';
     }
 }
