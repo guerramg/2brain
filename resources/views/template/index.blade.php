@@ -42,8 +42,12 @@
                         <a class="nav-link" href="{{ route('passwords.index') }}">Senhas</a>
                       </li>
                       <li class="nav-item">
+                        <a class="nav-link" href="{{ route('debitos.index') }}">Débitos</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="{{ route('stickies.index') }}">Lembretes</a>
                       </li>
+
                     </ul>
                   </div>
                 </div>

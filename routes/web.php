@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BirthdayController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DebitosController;
 use App\Http\Controllers\PasswordController;
 use App\Http\Controllers\StickyController;
 use App\Http\Controllers\UserController;
@@ -27,6 +28,7 @@ Route::resource('users', UserController::class);
 Route::resource('birthdays', BirthdayController::class);
 Route::resource('passwords', PasswordController::class);
 Route::resource('stickies', StickyController::class);
+Route::resource('debitos', DebitosController::class);
 Route::post('login', [UserController::class, 'auth'])->name('login.user');
 Route::get('logout', [UserController::class, 'logout'])->name('logout.user');
 
